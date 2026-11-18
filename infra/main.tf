@@ -6,8 +6,8 @@ resource "aws_security_group" "web" {
   ingress {
     description = "SSH for admins"
     from_port   = 22
-    to_port     = 22
+    to_port     = 3389
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["19.0.0.0/24"]
   }
 }
