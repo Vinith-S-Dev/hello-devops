@@ -1,0 +1,83 @@
+from abc import ABC, abstractmethod
+class Book:
+    def __init__(self, title, quantity):
+        self.title = title
+        self.quantity = quantity
+
+# Encapsulation
+class Library:
+    def __init__(self):
+        self.books = []
+        self.__total = 0
+
+    def add_book(self, book):
+        self.books.append(book)
+        self.__total += book.quantity
+
+    def borrow(self, title):
+        for book in self.books:
+            if book.title == title and book.quantity > 0:
+                book.quantity -= 1
+                self.__total -= 1
+                print("Book borrowed successfully")
+                return
+        print("Book not available")
+
+    def display(self):
+        for book in self.books:
+            print(book.title, book.quantity)
+
+    def total_books(self):
+        return self.__total
+
+# Abstraction
+class LibraryRules(ABC):
+    @abstractmethod
+    def return_book(self):
+        pass
+class ReturnBook(LibraryRules):
+    def return_book(self):
+        print("Book returned successfully")
+# Inheritance and Polymorphism
+class User:
+    def __init__(self, name):
+        self.name = name
+class Student(User):
+    def borrow(self):
+        print(self.name, "is a student borrowing a book")
+class Teacher(User):
+    def borrow(self):
+        print(self.name, "is a teacher borrowing a book")
+
+# Main Program
+library = Library()
+library.add_book(Book(input("Book 1 name: "), int(input("Quantity: "))))
+library.add_book(Book(input("Book 2 name: "), int(input("Quantity: "))))
+student = Student(input("Enter student name: "))
+teacher = Teacher("Malathy")
+library.display()
+student.borrow()
+library.borrow("Python")
+teacher.borrow()
+library.borrow("Java")
+return_book = ReturnBook()
+return_book.return_book()
+print("Total books:", library.total_books())
+
+
+//Output
+
+Book 1 name: vinith
+Quantity: 1
+Book 2 name: kumar
+Quantity: 1
+Enter student name: vinith
+vinith 1
+kumar 1
+vinith is a student borrowing a book
+Book not available
+Malathy is a teacher borrowing a book
+Book not available
+Book returned successfully
+Total books: 2
+
