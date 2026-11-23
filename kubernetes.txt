@@ -1,0 +1,22 @@
+kubectl get nodes
+
+kubectl apply -f day2/k8s.yaml
+
+kubectl get pods
+kubectl get pod
+kubectl get service
+
+kubectl scale deployment hello-devops --replicate=5
+kubectl scale deployment hello-devops --replicas=5
+kubectl scale deployment hello-devops --replicas=2
+kubectl scale deployment hello-devops --replicas=3
+
+kubectl delete pod hello-devops-5495f9d698-x7jj2
+kubectl delete hello-devops-7ffb64b465-j2kxz
+
+kubectl set image deployment/hello-devops web=hello-devops:2.0
+
+kubectl rollout status deployment/hello-devops
+kubectl rollout undo deployment/hello-devops
+
+kubectl delete -f day2/k8s.yaml

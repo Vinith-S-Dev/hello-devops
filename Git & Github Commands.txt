@@ -1,0 +1,34 @@
+git clone https://github.com/sndass-sq1/devops-bootcamp-starter.git
+git clone https://github.com/Vinith-S-Dev/hello-devops.git
+git clone https://github.com/Vinith-S-Dev/devops.git
+
+git config --global user.name "Vinith-S-Dev"
+git config --global user.email "ckvinith786@gmail.com"
+
+git config --global --unset user.email "ckvinith786@gmail.com"
+git config --global --unset user.name "Vinith-S-Dev"
+
+git init
+git status
+git add .
+git commit -m "SET NAME"
+git commit -m "CI/CD PIPELINE"
+git commit -m "NAME ADDED"
+git commit -m "Add Dockerfile, release 2.0"
+git commit -m "New feature: greet by name"
+git commit -m "Changed the config.js"
+git commit -m "Changed search.js"
+git commit -m "Changed infra"
+git commit -m "Changed packgae-lock.json"
+git commit -m "Changed headers"
+git commit -m "Changed headers 2"
+git commit -m "Changed Dockerfile"
+git commit -m "Changed erro 4 and 6"
+
+git remote -v
+git remote remove origin
+git remote origin https://github.com/Vinith-S-Dev/hello-devops.git
+git remote add origin https://github.com/Vinith-S-Dev/hello-devops.git
+
+git push
+git push --set-upstream origin main

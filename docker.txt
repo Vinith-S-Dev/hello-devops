@@ -1,0 +1,20 @@
+docker ps
+docker run -hello
+docker run hello
+docker run hello-world
+docker --version
+
+docker build -t hello-devops:1.0 .
+docker build -t hello-devops:2.0 .
+docker build -t hello-devops:3.0 .
+
+docker images
+
+docker run -d -p 8080:80 --name web hello-devops:1.0
+docker run -d -p 8080:80 --name web hello-devops:3.0
+
+docker logs web
+docker stats --no-stream
+docker top web
+
+docker rm -f web

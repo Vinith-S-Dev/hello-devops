@@ -1,0 +1,103 @@
+ls
+    2  cd ~
+    3  cd ..
+    4  cd ~
+    5  git clone https://github.com/sndass-sq1/devops-bootcamp-starter.git
+    6  cd hello-devops
+    7  pwd
+    8  ls
+    9  cd devops-bootcamp-starter
+   10  cd ..
+   11  cd devops-bootcamp-starter/
+   12  ls
+   13  cd maze
+   14  ls
+   15  chmod +x make-maze.sh
+   16  ls
+   17  ./make-maze.sh
+   18  LS
+   19  ls
+   20  cat island
+   21  cat file
+   22  cd island
+   23  cat file
+   24  cat START_HERE.txt
+   25  ls -a
+   26  cd jungle
+   27  ls
+   28  cd east
+   29  ls
+   30  cat note.txt
+   31  cd ..
+   32  cd .
+   33  cd cave
+   34  ls
+   35  cd south
+   36  ls
+   37  cat note.txt
+   38  cd ..
+   39  cd harbour
+   40  cd west
+   41  ls
+   42  wc -l ship.log
+   43  cat note.txt
+   44  cd ..
+   45  cd village
+   46  ls
+   47  ls -a
+   48  cd north
+   49  ls
+   50  cd chest-42
+   51  ls
+   52  cat treasure.txt
+   53  cd ..
+   54  cd harbour/west
+   55  cd .
+   56  CLEAR
+   57  clear
+   58  cd ..
+   59  cd~
+   60  cd ~
+   61  git clone https://github.com/sndass-sq1/devops-bootcamp-starter.git
+   62  ls
+   63  ls la
+   64  ls -la
+   65  cd devops-bootcamp-starter
+   66  ls -la
+   67  ls
+   68  cd maze
+   69  ls
+   70  cd island
+   71  ls
+   72  cd cave
+   73  ls
+   74  cd south
+   75  ls
+   76  cat note.txt
+   77  cd ..
+   78  ls
+   79  cd harbour
+   80  ls
+   81  cd west
+   82  ls
+   83  cd ship.log
+   84  cat ship.log
+   85  cd ..
+   86  ls
+   87  cd villag
+   88  cd village
+   89  ls
+   90  cd south
+   91  ls
+   92  cat.note.txt
+   93  cat note.txt
+   94  cd ..
+   95  cd north
+   96  ls
+   97  cd chest-42
+   98  ls
+   99  cat treasure.txt
+  100  clear
+  101  cd~
+  102  cd ~
+  103  clear
