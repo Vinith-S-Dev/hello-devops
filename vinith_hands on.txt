@@ -1,0 +1,152 @@
+
+# for num in range(1,10001):
+#   sum=0
+#   for i in range(1,num):
+#     if num%i==0:
+#       sum +=i
+#   if num==sum:
+#     print(num)
+  
+
+
+
+# arr = ["laravel","javascript","react","rubyonrails","python"]
+
+
+# for i in arr:
+#   print(i[0].upper()+i[1:] , end=" ")
+  
+
+
+  
+
+
+
+
+
+
+
+
+# arr = [12,45,7,89,23,45]
+# max = arr[0]
+# sMax = arr[0]
+# for i in range(len(arr)):
+#   if arr[i]>max:
+#     sMax = max
+#     max = arr[i]
+# print(sMax)
+
+
+
+
+
+
+# n = 10
+# sum = 0
+# for i in range(11):
+#   sum += i
+
+# print(sum)
+
+
+
+
+
+# arr = [12,45,7,89,23]
+# max = arr[0]
+# for i in range(len(arr)):
+#   if arr[i]>max:
+#     max = arr[i]
+
+# 
+
+
+
+Day 3 - Wednesday - 18-11-2026
+  404  git config --global --unset  user.email "ckvinith786@gmail.com"
+  405  git config --global --unset  user.name "Vinith-S-Dev"
+  406  git remote remove origin
+  407  git remote -v
+  408  git status
+  409  docker run hello-world
+  410  cd hello-devops
+  411  cp -r day3/bad-commit/. .
+  412  rm -rf day3/bad-commit
+  413  nano site/index.html
+  414  git status
+  415  nano site/index.html
+  416  git status
+  417  cp day3/security.yaml .github/workflows/security.yml
+  418  cp day3/security.yml .github/workflows/security.yml
+  419  mkdir -p .github/workflows
+  420  cp day3/security.yml .github/workflows/security.yml
+  421  git add .
+  422  git commit -m "New feature: greet by name"
+  423  git config --global user.name "Vinith-S-Dev"
+  424  git config --global user.email "ckvinith786@gmail.com"
+  425  git push
+  426  git status
+  427  git add .
+  428  git commit -m "New feature: greet by name"
+  429  git push
+  430  git remote origin https://github.com/Vinith-S-Dev/hello-devops.git
+  431  git remote add origin https://github.com/Vinith-S-Dev/hello-devops.git
+  432  git push
+  433  git init
+  434  git status
+  435  git remote -v
+  436  git push
+  437  git add .
+  438  git commit -m "New Feature: greet by name"
+  439  git push
+  440  git push --set-upstream origin main
+  441  nano site/config.js
+  442  git add .
+  443  git commit -m "Changed the config.js"
+  444  git push
+  445  nano site/config.js
+  446  nano site/search.js
+  447  git add .
+  448  git commit -m "Changed search.js"
+  449  git push
+  450  nano fixes/package-lock.json
+  451  nano day3/fixes/package-lock.json
+  452  nano package-lock.json
+  453  nano main.tf
+  454  nano infra/main.tf
+  455  git add .
+  456  git commit -m "Changed infra"
+  457  git push
+  458  nano package-lock.json
+  459  git add .
+  460  git commit -m "Changed packgae-lock.json"
+  461  git push
+  462  ls -la
+  463  cd day3
+  464  ls -la
+  465  nano day3/fixes/nginx/security-headers.conf
+  466  cd ..
+  467  nano day3/fixes/nginx/security-headers.conf
+  468  git add .
+  469  git commit -m "Changed headers"
+  470  git push
+  471  nano package-lock.json
+  472  nano day3/fixes/nginx/security-headers.conf
+  473  git add .
+  474  git commit -m "Changed headers 2"
+  475  git push
+  476  nano package-lock.json
+  477  nano Dockerfile
+  478  git add .
+  479  git commit -m "Changed Dockerfile"
+  480  git push
+  481  nano day3/fixes/nginx/security-headers.conf
+  482  nano Dockerfile
+  483  git add .
+  484  nano Dockerfile
+  485  nano security-headers.conf
+  486  git add .
+  487  git commit -m "Changed erro 4 and 6"
+  488  git push
+
+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
