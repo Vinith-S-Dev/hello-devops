@@ -1,0 +1,91 @@
+
+from abc import ABC, abstractmethod
+
+# Cab class
+class Cab:
+    def __init__(self, cab_name, cab_number, seats):
+        self.cab_name = cab_name
+        self.cab_number = cab_number
+        self.seats = seats
+
+
+# Encapsulation
+class Booking:
+    def __init__(self):
+        self.cabs = []
+        self.__total = 0
+
+    def add_cab(self, cab):
+        self.cabs.append(cab)
+
+    def book_cab(self, cab_number):
+        for cab in self.cabs:
+            if cab.cab_number == cab_number and cab.seats > 0:
+                cab.seats -= 1
+                self.__total += 1
+                print("Cab booked successfully")
+                return
+        print("Cab not available")
+
+    def display(self):
+        for cab in self.cabs:
+            print(cab.cab_name, cab.cab_number, cab.seats)
+
+    def total_bookings(self):
+        return self.__total
+
+
+# Abstraction
+class BookingRules(ABC):
+    @abstractmethod
+    def cancel_booking(self):
+        pass
+
+
+class CancelBooking(BookingRules):
+    def cancel_booking(self):
+        print("Booking cancelled successfully")
+
+
+# Inheritance and Polymorphism
+class User:
+    def __init__(self, name):
+        self.name = name
+
+
+class Customer(User):
+    def details(self):
+        print(self.name, "is a customer booking a cab")
+
+
+class Driver(User):
+    def details(self):
+        print(self.name, "is a driver providing cab service")
+
+
+# Main Program
+booking = Booking()
+
+booking.add_cab(Cab(input("Cab name: "),
+                    input("Cab number: "),
+                    int(input("Available seats: "))))
+
+booking.add_cab(Cab(input("Cab name: "),
+                    input("Cab number: "),
+                    int(input("Available seats: "))))
+
+customer = Customer(input("Enter customer name: "))
+driver = Driver("Arun")
+
+booking.display()
+
+customer.details()
+booking.book_cab("TN01")
+
+driver.details()
+booking.book_cab("TN02")
+
+cancel = CancelBooking()
+cancel.cancel_booking()
+
+print("Total bookings:", booking.total_bookings())
