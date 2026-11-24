@@ -1,0 +1,60 @@
+Maths 2 – Topics
+
+Vectors
+
+Matrices
+
+Linear Equations
+
+Determinants
+
+Cramer's Rule
+
+Row Echelon Form
+
+Row Reduction
+
+The Gaussian Elimination Method
+
+Vector Spaces
+
+Properties of Vector Spaces
+
+Linear Dependence
+
+Linear Independence
+
+Basis of Vector Spaces
+
+Rank and Dimension of a Vector Space
+
+Rank and Dimension Using Gaussian Elimination
+
+Null Space of a Matrix (Finding Nullity and Basis)
+
+What Is a Linear Mapping?
+
+What Is a Linear Transformation?
+
+Linear Transformations, Ordered Bases, and Matrices
+
+Image and Kernel of a Linear Transformation
+
+Equivalence and Similarity of Matrices
+
+Affine Subspaces and Affine Mappings
+
+Lengths and Angles
+
+Inner Products and Norms on a Vector Space
+
+Orthogonality and Linear Independence
+
+Orthonormal Basis
+
+Projections Using Inner Products
+
+The Gram–Schmidt Process
+
+Orthogonal Transformations and Rotations
+

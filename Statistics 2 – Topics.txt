@@ -1,0 +1,104 @@
+Statistics 2 – Topics
+Independent Trials and Bernoulli Distribution
+
+Binomial Distribution
+
+Geometric Distribution
+
+Common Distributions
+
+Poisson Random Variables
+
+Functions of One Random Variable
+
+Joint PMF of Two Discrete Random Variables
+
+Marginal PMF of Discrete Random Variables
+
+Conditional Distribution of One Random Variable Given Another
+
+Examples of Joint, Marginal, and Conditional Probabilities
+
+Joint PMF of More Than Two Discrete Random Variables
+
+Marginal PMF of Multiple Discrete Random Variables
+
+Conditioning with Multiple Discrete Random Variables
+
+Independence of Two Random Variables
+
+Independence of Multiple Random Variables
+
+Visualizing Functions of Random Variables: One-to-One Functions
+
+Visualizing Functions of Random Variables: Many-to-One Functions
+
+Functions of One Random Variable
+
+Functions of Two Random Variables
+
+Sum of Two Random Variables
+
+Maximum of Two Random Variables
+
+Functions of Random Variables
+
+Minimum and Maximum of Two Random Variables
+
+Expected Value of Random Variables
+
+Properties of Expected Value
+
+Simulation of Expected Value Using Python
+
+Variance and Standard Deviation
+
+Covariance and Its Properties
+
+Correlation Coefficient
+
+Bounds on Probabilities Using Mean and Variance
+
+Cumulative Distribution Functions (CDFs)
+
+Approximation of CDFs from Discrete to Continuous
+
+General Random Variables and Continuous Random Variables
+
+Probability and Density Functions
+
+Common Distributions
+
+Illustrations in Google Colab
+
+Functions of Continuous Random Variables
+
+Expectations of Continuous Random Variables
+
+Motivation
+
+Joint Distributions: Discrete and Continuous
+
+Jointly Continuous Random Variables
+
+Marginal Densities
+
+Independence
+
+Conditional Density
+
+From Data to Distribution
+
+Empirical Distribution and Descriptive Statistics
+
+Illustrations with Data
+
+Sum of Independent Random Variables
+
+Moment-Generating Functions
+
+Central Limit Theorem
+
+Distributions, Properties, and Connections
+
+Descriptive Statistics of Normal Samples
